@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full-width{
+    width: 100%;
+}
+.navbar{
+    background-color: #283E4A;
+    font-size: 14px;
+    margin-bottom: 0;
+    border: 0;
+}
+.navbar-brand{
+    padding: 0px;
+    margin-left: 0 !important;
+}
+.navbar-form {
+    margin: 15px auto !important;
+}
+.navbar-brand img{
+    padding: 0px;
+    width: 64px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: rgb(199, 209, 206);
+}
+
+.navbar-default .navbar-nav > li > a i{
+    display: block;
+    text-align: center;
+}
+/* .nav_icon{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 0 8px 0 28px;
+    line-height: 1.75;
+    color: rgba(40,62,74,.75);
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    background-color: #e1e9ee;;
+
+} */
+.form-control{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 0 8px 0 28px;
+    line-height: 1.75;
+    color: rgba(40,62,74,.75);
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    background-color: #e1e9ee;;
+}
+.fab{
+    line-height: 0;
+}
+
+.banner{
+    background: #F5F5F5;
+    padding-bottom: 20px;
+    margin-bottom: 90px;
+    position: relative;
+}
+.banner-image{
+    background: url("Images/banner.svg");
+    height: 240px;
+}
+.dp{
+    position: absolute;
+    bottom: -85px;
+    left: 40px;
+    padding: 4px;
+    background: rgba(243,246,248,.94);
+}
+.edit-option{
+    position: absolute;
+    right: 22px;
+    bottom: -35px;
+}
+.profile{
+    margin-bottom: 28px;
+}
+.profile .heading{
+    font-size: 24px;
+}
+.profile .subheading{
+    font-size: 18px;
+}
+.profile .address{
+    font-size: 16px;
+    color: #888888;
+}
+.features{
+    font-size: 14px;
+    font-weight: 600;
+    list-style-type: none;
+}
+.features li {
+    margin-bottom: 3px;
+}
+.features li span {
+    margin-left: 4px;
+}
+.features li i {
+    font-size: 20px;
+    width: 25px;
+}
+.section{
+    border-bottom: 1px solid gray;
+    padding: 0;
+}
+
+.description{
+    padding: 16px 0;
+}
+.without-padding{
+    padding: 0;
+}
+
+.resume-option{
+    border: 1px solid lightgray;
+}
+.resume-option .heading{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.resume-option .resume-height{
+    height: 80px;
+}
